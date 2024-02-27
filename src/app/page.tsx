@@ -21,9 +21,9 @@ export default function AIPresentation() {
             "Hi you! 👋 I can help you create a presentation on any topic.",
         }}
         clickOutsideToClose={false}
-        onInProgress={(inProgress) => {
+{/*         onInProgress={(inProgress) => {
           setChatInProgress(inProgress);
-        }}
+        }} */}
       >
         <Presentation chatInProgress={chatInProgress} />
       </CopilotSidebar>
